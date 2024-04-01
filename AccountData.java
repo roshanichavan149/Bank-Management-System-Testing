@@ -3,7 +3,7 @@ public class AccountData {
     private String userName,userPAN,userAddress,accountNominee,userPhoneNumber, userAadhaarNumber,accountPassword;
     private String userDOB;
     private double accountBalance;
-
+//constructor
     public void getAccountDetails(String userName,String userDOB,String userAddress,String accountNominee,String userPAN,String userPhoneNumber,String userAadharNumber,double accountBalance,String accountPassword){
         this.userName=userName;
         this.userDOB = userDOB;
@@ -15,7 +15,7 @@ public class AccountData {
         this.accountBalance = accountBalance;
         this.accountPassword = accountPassword;
     }
-
+//getter and setter functions
     public int getAccountNumber() {
         return accountNumber;
     }
